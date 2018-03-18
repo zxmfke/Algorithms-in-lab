@@ -1,11 +1,13 @@
 <h1>FourBit Trie</h1>
 
-<h4>方法介绍：</h4>
+<h4>方法介绍:</h4>
 将原来binary trie每次读prefix的1 bit改成一次读4bits的FourBit Trie，用来加快IP lookup的速度
+
+<h4>示意图:</h4>
 
 ![image](https://github.com/zxmfke/Algorithms-in-lab/blob/master/img_folder./Fourbit_Trie_Structure.jpg)
 
-<h4>程式：</h4>
+<h4>程式:</h4>
 
 ```c
 #include<stdlib.h>
