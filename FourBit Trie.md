@@ -3,7 +3,7 @@
 <h4>方法介绍：</h4>
 将原来binary trie每次读prefix的1 bit改成一次读4bits的FourBit Trie，用来加快IP lookup的速度
 
-![image](https://github.com/xxxx.jpg)
+![image](https://github.com/zxmfke/Algorithms-in-lab/img_folder./Fourbit_Trie_Structure.jpg)
 
 <h4>程式：</h4>
 
