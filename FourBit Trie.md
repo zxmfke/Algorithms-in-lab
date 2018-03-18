@@ -91,7 +91,7 @@ void add_node(unsigned int ip,unsigned char len,unsigned char nexthop){
 ////////////////////////////////////////////////////////////////////////////////////
 void read_table(char *str,unsigned int *ip,int *len,unsigned int *nexthop){
 	char tok[]="./";
-	char buf[100],*str1;
+	char buf[100],*str1; 
 	unsigned int n[4];
 	sprintf(buf,"%s\0",strtok(str,tok));
 	n[0]=atoi(buf);
